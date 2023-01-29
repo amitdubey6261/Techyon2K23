@@ -147,6 +147,13 @@ export default class{
         this.world.addBody(this.Obstacle);
     }
 
+    poker(){
+        document.querySelector(".setStr").innerHTML = this.wordArray[this.strItr];
+        console.log(this.setString)
+        document.querySelector(".setStr").innerHTML = this.wordArray[this.strItr];
+        console.log(this.setString)
+    }
+
     takeUserInput(){
         document.addEventListener('keyup' , (e)=>{
             if(e.keyCode == 32){
