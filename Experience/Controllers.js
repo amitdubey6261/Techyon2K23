@@ -25,4 +25,12 @@ export default class Controllers{
     update(){
         this.orbitControl.update();
     }
+
+    updateCallback(){
+        const size = 10;
+        const divisions = 10;
+        
+        const gridHelper = new THREE.GridHelper( size, divisions );
+        let poker = new THREE.AmbientLightProbe();
+    }
 }
